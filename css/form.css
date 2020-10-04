@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.back{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+
+}
+
+
+header nav{
+    height: 60px;
+    background-color: #130d50;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header nav ul{
+    display: flex;
+    
+}
+header nav ul li{
+    list-style-type: none;
+    /* background-color: lawngreen; */
+    padding: 20px 0 0 0;
+    margin-right: 60px;
+    
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#form{
+    padding: 50px 20px 0 20px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(17, 72, 124);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all .5s ease;
+    
+}
+
+
+input{
+    height:40px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+
+#form h1{
+    margin-bottom: 20px;
+    color: white;
+}
+#form button{
+    padding: 10px;
+    width: 200px;
+    margin-left: 120px;
+    border-radius: 20px;
+    background-color: #130d50;
+    color: white;
+    border: none;
+}
+/* .fa-times-circle-o{
+    position: absolute;
+    top: 2%;
+    left: 95%;
+    color: white;
+} */
+
+.btn{
+    padding: 10px;
+    width: 70px;
+    background-color: #130d50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.test{
+    height: 25px;
+    width: 20px;
+    position: absolute;
+    top: 2%;
+    left: 95%;
+
+}
+.test a{
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px){
+    #form{
+        height: 500px;
+        width: 400px;
+        left: 15%;
+    }
+
+    #form button{
+        margin-left: 50px;
+    }   
+    
+}
+

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    height: 780px;
+    width: 30%;
+    margin: auto;
+    /* background-color: green; */
+    /* border: 1px solid gray; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container2{
+    height: 300px;
+    background-color: rgb(231, 231, 231);
+    
+}
+.icon{
+    position: relative;
+    display: flex;
+    height: 30px;
+    /* background-color: yellow; */
+}
+.fa-history{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+}
+.fa-bars{
+    padding: 0 40px 0 10px;
+}
+input{
+    height: 200px;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 40px;
+    text-align: right;
+}
+.sign-rule{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 50%;
+    /* background-color: orangered; */
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    /* background-color: rgb(89, 0, 255); */
+    margin-top: 10px;
+}
+.numbers{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-areas: "btn"; */
+    /* margin-top: 10px; */
+    height: 480px;
+    /* background-color: pink; */
+    
+}
+.btn{
+    background-color: #f0efeb;
+    border: 2px solid rgb(231, 231, 231) ;
+    /* border-style: outset; */
+}
+.btn:hover{
+    background-color: hotpink;
+    color: white;
+}
+.btn1{
+    background-color: white;
+    border: 2px solid rgb(231, 231, 231);
+}
+.btn1:hover{
+    background-color: yellow;
+    
+}

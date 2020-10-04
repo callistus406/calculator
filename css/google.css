@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    /* background-color: lawngreen; */
+}
+
+header ul li{
+    margin-left: 30px;
+    list-style: none;
+    /* display: flex; */
+}
+
+header ul li a{
+    text-decoration: none;
+}
+.sign a{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.middle-box{
+    height: 550px;
+    width: 600px;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    /* background-color: crimson; */
+    /* transform: translate(-50% -50%); */
+}
+.middle-box img{
+    margin-left:25%;
+}
+.fa-share-alt{
+    margin-left: 110px;
+    color: blue;
+    /* background-color: chartreuse; */
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border: 1px solid rgb(226, 226, 171);
+    border-radius: 20px;
+     /* background-color: whitesmoke; */
+    /* padding: 0 10px 0 10px; */
+    
+    
+}
+input{
+    width: 90%;
+    border: none;
+}
+.fa-search, .fa-microphone{
+    padding: 10px;
+}
+.fa-microphone{
+    color: blue;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    /* background-color: chartreuse; */
+}
+.para p{
+    margin-left: 50px;
+    padding: 10px;
+    background-color: beige;
+    
+}
+.last{
+    margin-left: 20%;
+}
+.last a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.middle-box img, .fa-share-alt, .items, .para{
+    margin-bottom: 30px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: beige;
+    padding: 15px;
+}
+
+.foot-p2{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: darkgoldenrod; */
+}
+.foot-p2 p{
+    margin-right: 20px;
+}
+.foot-p3{
+    display: flex;
+    margin-top: 10px;
+    /* background-color: hotpink; */
+}
+
+.foot-p3 p{
+    margin-right: 20px;
+}
+
+.general{
+    display: flex;
+    justify-content: space-between;
+}
