@@ -79,3 +79,17 @@ input{
     background-color: yellow;
     
 }
+
+
+@media only screen and (max-width: 1700px){
+    .container1{
+        height: 780px;
+        width: 80%;
+        margin: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        /* background-color: green; */
+        /* border: 1px solid gray; */
+        
+    }
+
+}
