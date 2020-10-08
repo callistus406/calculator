@@ -278,3 +278,13 @@ input {
         padding-right: 1%;
     }
 }
+
+@media only screen and (max-width:320px) {
+    .container1 {
+        height: 85vh;
+        width: 90%;
+        margin: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
