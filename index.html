@@ -7,6 +7,7 @@
     <title>Microsoft Calculator</title>
     <link rel="stylesheet" href="css/calculator.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
 </head>
 
 <body>
@@ -24,7 +25,7 @@
                 <i class="fa fa-history fa-lg"></i>
             </div>
             <!-- <div></div> -->
-            <input type="text" placeholder="0">
+            <input type="text" placeholder="0" id="display">
             <div class="sign-rule">
                 <h3 class="margin">DEG</h3>
                 <h3>HYP</h3>
@@ -64,9 +65,9 @@
             <button class="btn">&#8593</button>
             <button class="btn">CE</button>
             <button class="btn">C</button>
-            <button class="btn"><i class="fa fa-window-close-o"></i></button>
-            <button class="btn">&#247</button>
-            <button class="btn">&#120587</button>
+            <button class="btn backspace"><i class="fa fa-window-close-o"></i></button>
+            <button class="btn division">&#247</button>
+            <button class="btn ">&#120587</button>
             <button class="btn1">
                 <h3>7</h3>
             </button>
@@ -76,7 +77,7 @@
             <button class="btn1">
                 <h3>9</h3>
             </button>
-            <button class="btn">X</button>
+            <button class="btn multiplication">X</button>
             <button class="btn">n!</button>
             <button class="btn1">
                 <h3>4</h3>
@@ -98,7 +99,7 @@
             <button class="btn1">
                 <h3>3</h3>
             </button>
-            <button class="btn">+</button>
+            <button class="btn" >+</button>
             <button class="btn">(</button>
             <button class="btn">)</button>
             <button class="btn1">
@@ -111,7 +112,7 @@
         </div>
 
     </div>
-
+<script src="/js/calculator.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>

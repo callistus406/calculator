@@ -150,6 +150,14 @@ input {
     /* border-style: outset; */
 }
 
+  .focus {
+    
+    
+    border-color: blue;
+    
+  }
+
+
 .btn:hover {
     background-color: rgb(221, 210, 210);
     color: black;
