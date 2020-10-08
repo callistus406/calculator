@@ -25,11 +25,15 @@ body {
     box-shadow: rgba(0, 0, 255, 0.2) 0px 7px 29px 0px;
     background: rgb(231, 231, 231);
     border-radius: 3px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
 }
 
 .container2 {
     /* height: 70vh; */
-    background-color: rgb(231, 231, 231);
+    /* background-color: rgb(231, 231, 231); */
+    width: 100%;
+    /* border: 1px solid black; */
 }
 
 .burger {
@@ -77,7 +81,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 100;
     color: rgb(37, 36, 33);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .fa-history {
@@ -90,16 +94,21 @@ body {
     padding: 0 40px 0 10px;
 }
 
+.capture {
+    height: 3vh;
+    /* border: 1px solid blue; */
+    text-align: end;
+}
+
 input {
-    height: 15vh;
+    /* margin-top: 3vh; */
+    height: 12vh;
     width: 100%;
     outline: none;
     border: none;
     font-size: 40px;
     text-align: right;
     background-color: rgb(231, 231, 231);
-    padding-left: 2%;
-    padding-right: 2%;
 }
 
 .sign-rule {
@@ -133,8 +142,8 @@ input {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-left: 1%;
-    margin-right: 1%;
+    /* margin-left: 1%;
+    margin-right: 1%; */
     height: 50vh;
     border: 2px solid rgb(231, 231, 231);
     /* background-color: pink; */
@@ -150,13 +159,17 @@ input {
     /* border-style: outset; */
 }
 
-  .focus {
-    
-    
-    border-color: blue;
-    
-  }
+.btn:focus {
+    outline: none;
+}
 
+.btn1:focus {
+    outline: none;
+}
+
+.focus {
+    border-color: blue;
+}
 
 .btn:hover {
     background-color: rgb(221, 210, 210);
@@ -176,9 +189,51 @@ input {
 @media only screen and (max-width: 1024px) {
     .container1 {
         height: 85vh;
-        width: 50%;
+        width: 30%;
         margin: auto;
         /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    /* input { */
+    /* margin-top: 3vh; */
+    /* height: 12vh;
+        width: 80%;
+        outline: none;
+        border: none;
+        font-size: 40px;
+        text-align: right;
+        background-color: rgb(231, 231, 231);
+        padding-left: 1%;
+        padding-right: 1%;
+    } */
+}
+
+@media only screen and (max-width:940px) {
+    .container1 {
+        height: 85vh;
+        width: 35%;
+        margin: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .container1 {
+        height: 85vh;
+        width: 70%;
+        margin: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media only screen and (max-width:797px) {
+    .container1 {
+        height: 85vh;
+        width: 40%;
+        margin: auto;
         padding-left: 1%;
         padding-right: 1%;
     }
@@ -187,9 +242,38 @@ input {
 @media only screen and (max-width:670px) {
     .container1 {
         height: 85vh;
+        width: 50%;
+        margin: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media only screen and (max-width:543px) {
+    .container1 {
+        height: 85vh;
+        width: 60%;
+        margin: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media only screen and (max-width:443px) {
+    .container1 {
+        height: 85vh;
+        width: 70%;
+        margin: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .container1 {
+        height: 85vh;
         width: 80%;
         margin: auto;
-        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
         padding-left: 1%;
         padding-right: 1%;
     }
