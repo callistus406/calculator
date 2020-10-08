@@ -262,7 +262,7 @@ input {
 @media only screen and (max-width:443px) {
     .container1 {
         height: 85vh;
-        width: 70%;
+        width: 80%;
         margin: auto;
         padding-left: 1%;
         padding-right: 1%;
