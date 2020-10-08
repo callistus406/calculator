@@ -12,7 +12,7 @@ let storeVal;
 // display.addEventListener("onkeyup", activate);
 
 
-(function () {
+ 
   numbers.addEventListener("click", e => {
 
     if (e.target.textContent == "1") return display.value += e.target.textContent;
@@ -39,7 +39,7 @@ let storeVal;
 
     if (e.target.textContent == "=") return equal(e);
   });
-})();
+
 
 const clearScreen = function () {
   display.value = "";
