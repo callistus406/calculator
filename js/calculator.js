@@ -89,6 +89,7 @@ const squreRoot = function () {
   capture.innerHTML = "√" + " " + initVal;
 
 
+
 }
 const log = function () {
   initVal = +display.value;
