@@ -55,7 +55,7 @@ numbers.addEventListener("click", e => {
   if (e.target.textContent == ")") return display.value += e.target.textContent;
   if (e.target.classList.contains("sqrt")) return squreRoot();
   if (e.target.classList.contains("pow")) return square();
-  if (e.target.classList.contains("raised")) { mathOperator = "^";return capture.textContent += `${display.value}  ^`; }
+  if (e.target.classList.contains("raised")) { mathOperator = "^"; return capture.textContent += `${display.value}  ^`; }
   if (e.target.classList.contains("fact")) return factorial();
   if (e.target.classList.contains("pi")) return display.value += 3.14159265358;
   if (e.target.textContent == "Mod") { mathOperator = "%"; return display.value += "%"; }
@@ -66,15 +66,15 @@ numbers.addEventListener("click", e => {
 });
 const invert = function () {
   // still under contruction
-if (numbers.childNodes.contains("change")) {
-  console.log(numbers.childNodes)
-}
-  
+  if (numbers.childNodes.contains("change")) {
+    console.log(numbers.childNodes)
+  }
+
 
 }
 // not implemented
 const condition = function (e) {
-  if (capture.textContent =="" ) {
+  if (capture.textContent == "") {
     display.value = e.target.textContent;
   } else {
     display.value += e.target.textContent;
@@ -105,8 +105,8 @@ const pow = function (raised) {
   initValue = +display.value;
   let ans = +raised;
   console.log(typeof (initValue));
-  
- return eval(Math.pow(initValue, ans));
+
+  return eval(Math.pow(initValue, ans));
 
 }
 const squreRoot = function () {
@@ -167,7 +167,7 @@ const factorial = function () {
 const equal = function () {
   let getValue = +display.value;
   console.log(getValue);
-  if (mathOperator == "+") { capture.textContent =evaluate() ; display.value = evaluate(); }
+  if (mathOperator == "+") { capture.textContent = evaluate(); display.value = evaluate(); }
   if (mathOperator == "-") { capture.textContent = ""; display.value = evaluate(); }
   if (mathOperator == "*") { capture.textContent = ""; display.value = evaluate(); }
   if (mathOperator == "/") { capture.textContent = ""; display.value = evaluate(); }
