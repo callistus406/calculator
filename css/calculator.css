@@ -95,6 +95,7 @@ body {
 }
 
 .capture {
+    /* margin-top: 2px; */
     height: 3vh;
     /* border: 1px solid blue; */
     text-align: end;
@@ -106,7 +107,7 @@ input {
     width: 100%;
     outline: none;
     border: none;
-    font-size: 40px;
+    font-size: 1.2em;
     text-align: right;
     background-color: rgb(231, 231, 231);
 }
